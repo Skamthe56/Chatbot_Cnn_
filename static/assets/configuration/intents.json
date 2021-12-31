@@ -1,0 +1,151 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "hy"
+        ],
+        "responses": [
+          "Hey, how can I help?",
+          "Hello, thanks for visiting. How can I help ?",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "booking",
+        "patterns": [
+          "I want to book train ticket",
+          "train reservation",
+          "train booking",
+          "travel booking",
+          "rail reservation",
+          "travel reservation",
+          "booking",
+          "reservation"
+        ],
+        "responses": [
+          "where do you want to travel ?",
+          "From where you want to travel ?",
+          "source station of your travel ?",
+          "start location ?",
+          "start Station?"
+        ]
+      },
+	  {
+        "tag": "askdate",
+        "patterns": [
+          "From to",
+		  "Travelling From to",
+          "From London to Norwich",
+          "london",
+          "Norwich"
+        ],
+        "responses": [
+          "which date do you want to travel ? Please provide date in DD/MM/YY format",
+          "When do you want to travel ? Please provide date in DD/MM/YY format"
+        ]
+      },
+	  {
+        "tag": "asktime",
+        "patterns": [
+          "January","Jan","TOday", "tomorrow", "Day after tomorrow", "this sunday",
+		  " / /    ",
+		  "  -  -    ",
+		  "Febuary","Feb",
+		  "December",
+          "01",
+		  "02",
+		  "03","04","05","28-12-2021"
+        ],
+        "responses": [
+          "Please provide the time of travel",
+          "What time would you like to travel?"
+        ]
+      },
+	  {
+        "tag": "askreturn",
+        "patterns": [
+          " : ",
+		  " am",
+		  " pm",
+		  "00:00 AM",
+		  " :  am",
+          " : pm"
+        ],
+        "responses": [
+          "Do you want a return journey?",
+          "Would you like to book a return journey?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
